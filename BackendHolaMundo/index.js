@@ -36,9 +36,8 @@ let notes = [
       response.json(note)
     }) 
     Asi se escribe consoles dentro de un find */
-
+    app.use(express.static('dist'))
     app.use(cors())
-
     app.use(express.json())
 
    
